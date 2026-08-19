@@ -12,6 +12,12 @@ Self-taught, no computer science degree. Before this I spent five years as a mac
 
 **[local-ai-image-detector](https://github.com/luigimasango-dev/local-ai-image-detector)** — Chrome MV3 extension that flags AI-generated images. Detection runs locally, with no server round-trip.
 
+**[claude-office](https://github.com/luigimasango-dev/claude-office)** — Telegram Mini App. A live pixel office showing what my coding agents are working on, reading local session transcripts. The bot menu button is provisioned automatically on start.
+
+**[browser-tools-mcp](https://github.com/luigimasango-dev/browser-tools-mcp)** — MCP server exposing browser inspection and control to an agent.
+
+**[chrome-bridge](https://github.com/luigimasango-dev/chrome-bridge)** — a WebSocket bridge and Chrome extension pairing a local agent to a running browser.
+
 Not yet public: a suite of ten MCP servers covering company registry lookup, B-BBEE scorecard estimation, POPIA data-flow auditing, payroll anomaly detection and tender monitoring against a government API; a passive reconnaissance server with certificate-transparency history and an RDAP lookup that falls back to whois for `.za`, because RDAP has no coverage there; and two trading integrations built around hard safety gates.
 
 ### How I work
