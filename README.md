@@ -8,10 +8,10 @@ Electric Wire in Alrode, running fine wire drawing, stranding and extrusion mach
 computer science degree. Everything below I built by directing coding agents and then checking
 what they produced on disk, which is where the habits further down come from.
 
-### What I am building now (October 2026)
+### What I am building now (November 2026)
 
 An agent estate, with gates that can fail. It has 233 agent definitions and 40 declared MCP
-servers, 23 of them connected. The numbers matter less than the instruments. A pin gate checks
+servers, 26 of them connected. The numbers matter less than the instruments. A pin gate checks
 that every model pin still resolves against the live registry. A freshness gate checks that the
 rules files still describe the machines they govern. A TDD gate refuses production code that has
 no test. When one of them goes red on healthy work, I fix the gate rather than the claim.
@@ -19,13 +19,24 @@ no test. When one of them goes red on healthy work, I fix the gate rather than t
 A betting analysis lane that measures itself. It has a goals model, calibration over 1,095
 de-vigged observations, and one admission rule: a selection only goes in at 70% or better model
 probability. A pre-placement gate enforces ten rules and has refused my own book on merit rather
-than let it through. 980 automated tests.
+than let it through. 1,060 automated tests.
 
 A trading system whose safety defaults off. MT5 integration sits behind a live-trading gate, a
 daily-loss cap and a mandatory stop on every position. The kill switch survives a restart and
-there is no way to reset it from a chat: once it trips, a human edits the state file by hand. A
-pre-execution hook judges every shell command and file write before it happens, and it fails
-open rather than locking the machine.
+there is no way to reset it from a chat: once it trips, a human edits the state file by hand. The
+bot fills in a missing stop and target on any open trade, including mine, but never moves one a
+person set, and it refuses a trade whose single stop would cost more than the whole account. A
+read-only audit traced every order path in it back to one guarded choke point. 1,069 automated
+tests. A pre-execution hook judges every shell command and file write before it happens, and it
+fails open rather than locking the machine.
+
+Infrastructure I run myself instead of renting. Firecrawl, the scraping and search engine, runs
+in Docker on my own machine and only answers on localhost, so agents scrape and search without
+API credits. Ten upstream projects the estate depends on (OpenCode, the MCP Python SDK, the
+desktop driver and others) are cloned and studied at the source, and the findings I acted on
+were checked against the file and line they cite first. A watchdog checks long-running agent
+goals every 15 minutes with an independent judge, because a model grading its own progress has a
+blind spot.
 
 Smaller builds include a Roblox game with its own test suite. The MCP servers are pinned below.
 
@@ -40,17 +51,18 @@ it is meant to judge.
 Every countable claim I publish traces to something that can re-measure it. If a number cannot
 be re-measured on demand, it does not go in the document.
 
-Every failure that costs real time or money gets a numbered lesson. There are 34 of them so far.
+Every failure that costs real time or money gets a numbered lesson. There are 35 of them so far.
 
-### Numbers, measured 2026-10-28
+### Numbers, measured 2026-11-04
 
 | Measure | Value |
 |---|---|
 | Agent definitions in the estate | 233 |
-| MCP servers declared / connected | 40 / 23 |
-| Automated tests, company estate | 640 passing, 0 failing |
-| Automated tests, betting lane | 980 passing, 0 failing |
-| Repositories | 39, of which 10 public |
+| MCP servers declared / connected | 40 / 26 |
+| Automated tests, company estate | 667 |
+| Automated tests, betting lane | 1,060 |
+| Automated tests, trading system | 1,069 passing, 0 failing |
+| Public repositories | 10 |
 
 ### Pinned projects
 
