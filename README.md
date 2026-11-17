@@ -8,6 +8,20 @@ Electric Wire in Alrode, running fine wire drawing, stranding and extrusion mach
 computer science degree. Everything below I built by directing coding agents and then checking
 what they produced on disk, which is where the habits further down come from.
 
+### Ubuntu Lab Consultants
+
+I run Ubuntu Lab Consultants (Pty) Ltd, a consultancy for private businesses. The software
+exists so one person can do the research, coordination and follow-up of a small office. The
+consulting work so far: sourcing tenders and matching them to businesses that can deliver,
+lining up partners where a bid needs a skill or grading we lack, screening businesses against
+South African funding programmes, and an export pack for growers using China's zero-duty
+window, which runs from 1 May 2026 to 30 April 2028.
+
+Field apps for site crews sit beside it. Proof Pack turns a photo, a quantity and a client
+signature into one A4 page. A certificate tracker drafts the reminder before a ticket lapses.
+Offline calculators handle paint and steel quantities, and FieldOps turns the daily pre-start
+check into cost per machine-hour. They all work with no signal.
+
 ### What I am building now (November 2026)
 
 An agent estate, with gates that can fail. It has 233 agent definitions and 40 declared MCP
@@ -62,7 +76,7 @@ Every failure that costs real time or money gets a numbered lesson. There are 35
 | Automated tests, company estate | 667 |
 | Automated tests, betting lane | 1,060 |
 | Automated tests, trading system | 1,069 passing, 0 failing |
-| Public repositories | 10 |
+| Public repositories (2026-11-17) | 10 |
 
 ### Pinned projects
 
@@ -77,8 +91,8 @@ Every failure that costs real time or money gets a numbered lesson. There are 35
 
 ### Currently
 
-Building agent tooling and measurement instruments. Open to remote contract work on Python,
-agent orchestration, MCP servers and test-first delivery.
+Running Ubuntu Lab Consultants and building the tools behind it. Open to contract work on
+operations coordination, Python, agent orchestration, MCP servers and test-first delivery.
 
 ### Contact
 
