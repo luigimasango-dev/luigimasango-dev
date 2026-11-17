@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#13294a"/>
+  <defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".05" stroke-width="1.5"/></pattern></defs>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <g transform="translate(256 262)">
+    <polygon points="0,-150 130,-75 0,0 -130,-75" fill="#E2B54A"/>
+    <polygon points="-130,-75 0,0 0,150 -130,75" fill="#C99A2E"/>
+    <polygon points="130,-75 0,0 0,150 130,75" fill="#9C7420"/>
+    <g transform="matrix(130 75 0 150 -130 -75)">
+      <path d="M0.3 0.2 V0.55 C0.3 0.8 0.7 0.8 0.7 0.55 V0.2" fill="none" stroke="#13294a" stroke-width="0.14" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <polyline points="-130,-75 0,0 130,-75" fill="none" stroke="#F3D27A" stroke-width="3" stroke-linejoin="round" opacity=".7"/>
+    <line x1="0" y1="0" x2="0" y2="150" stroke="#7d5c18" stroke-width="3" opacity=".6"/>
+    <circle cx="0" cy="-75" r="17" fill="#ffffff"/>
+  </g>
+</svg>
